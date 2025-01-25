@@ -14,6 +14,10 @@ body {
     font-family: "Inter", serif;
 }
 
+#button_menu {
+    display: none;
+}
+
 header {
     padding: 40px 0;
 }
@@ -23,15 +27,6 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
-
-.menu__head {
-    display: none;
-}
-
-#button_menu {
-    display: none;
-}
-    
 
 nav ul {
     display: flex;
