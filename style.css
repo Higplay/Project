@@ -24,6 +24,10 @@ header .container {
     align-items: center;
 }
 
+.menu__head {
+    display: none;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
