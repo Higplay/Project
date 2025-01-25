@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background: #EDF3F8;
+    font-family: "Inter", serif;
+}
+
+header {
+    padding: 40px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #36536B;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+}
+
+nav ul li a:hover {
+    color: #2D3B4A;
+    font-size: 18px;
+}
+
+.btn_header {
+    padding: 16px 26px 14px 24px;
+    border: none;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px #36536B40;
+    border-radius: 24px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+    letter-spacing: -0.11538461595773697px;
+    transition: 0.5s;
+}
+
+.btn_header:hover {
+    background: #A63E63;
+    box-shadow: 10px 10px 25px -10px #2D3B4A40;
+    scale: 1.2;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.5538461804389954px;
+    text-align: left;
+    color: #36536B;
+}
+
+.text_hero {
+    width: 546px;
+}
+
+.hero {
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_info {
+    width: 445px;
+}
+
+.text_info h2 {
+    color: #36536B;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    margin-bottom: 24px;
+}
+
+.text_info p {
+    color: #6C8294;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.info .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bank h3 {
+    color: #36536B;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.13846154510974884px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bank {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bank_info .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bank_info {
+    padding: 40px 0;
+    margin-bottom: 130px;
+}
+
+.Bank_icon {
+    transition: 0.5s;
+}
+
+.Bank_icon:hover {
+    scale: 1.2;
+}
+
+footer {
+    padding: 40px 0;
+    background: #1B262F;
+
+}
+
+.aa {
+    color: #FBFCFE;
+}
+
+.aa:hover {
+    color: #F1F4F9;
+}
+
+i {
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+i:hover {
+    color: #F1F4F9;
+    font-size: 30px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navv {
+    margin-left: -800px;
+}
+
+.Phone {
+    scale: 1;
+}
+
+.Codes {
+    scale: 1.1;
+    border-radius: 20px;
+}
+
+.bank_info {
+    margin-top: 100px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 24px 20px;
+    }
+
+    .Phone {
+        scale: 0.8;
+        justify-content: center;
+        display: flex;
+    }
+
+    .hero .container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.3692307770252228px;
+        text-align: center;
+    }
+
+    .info .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Codes {
+        scale: 0.8;
+    }
+
+    .text_info h2 {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.3692307770252228px;
+        text-align: center;
+    }
+
+    .text_info p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .text_info {
+        justify-content: center;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+
+    .bank_info {
+        margin-top: 50px;
+    }
+
+    footer {
+        padding: 24px 20px;
+    }
+
+    footer .container {
+        justify-content: space-between;
+    }
+
+    .ul_footer {
+        margin-left: 600px;
+    }
+
+    .menu__head {
+        display: none;
+    }
+
+}
+
+@media (max-width: 375px) {
+    nav ul {
+        display: none;
+    }
+
+    .menu__head {
+        display: block;
+        border: none;
+    }
+
+    #button_menu {
+        color: #2D3B4A;
+        font-size: 36px;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ul_footer {
+        display: block;
+    }
+
+    .text_hero h1 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.2461538463830948px;
+        text-align: center;
+    }
+
+    .Phone {
+        scale: 0.8;
+        width: 308px;
+    }
+
+    .text_info h2 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.2769230902194977px;
+        text-align: center;
+    }
+
+    .text_info p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .bank_info .container {
+        display: flex;
+        flex-wrap:wrap;
+        gap: 60px;
+    }
+
+    .bank {
+        scale: 1.2;
+    }
+
+    .text_hero {
+        width: 290px;
+    }
+
+    .text_info {
+        width: 290px;
+    }
+
+    .Codes {
+        width: 290px;
+    }
+
+    footer .container {
+        padding: 24px 10px;
+        flex-direction:column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    nav ul li a {
+        margin-left:210px;
+    }
+}
+
